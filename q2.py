@@ -19,9 +19,9 @@ def graphSnowfall(t):
     plt.xlabel('Snowfall Range (in cms)')
     plt.ylabel('Frequency')
     plt.title('Snowfall Accumulation')
-    plt.show()
     # Save the plot as an image file
     plt.savefig('snowfall_plot.png')
+    plt.show()
 
 # Test the function
 graphSnowfall('snowfall_data.txt')
